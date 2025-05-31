@@ -69,4 +69,24 @@ document.querySelectorAll('.accordion-header').forEach(header => {
 });
 
 
+
+let lastScrollTop = 0;
+const header = document.querySelector('.main-header');
+
+window.addEventListener('scroll', () => {
+  const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScroll > lastScrollTop && currentScroll > 50) {
+    // Scroll hacia abajo → ocultar header
+    header.classList.add('header-hidden');
+  } else {
+    // Scroll hacia arriba → mostrar header
+    header.classList.remove('header-hidden');
+  }
+
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para evitar valores negativos
+});
+
+
+
 console.log('JS activo. Pestañas, zoom, imagen dinámica y contador funcionales.');
