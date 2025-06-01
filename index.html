@@ -10,8 +10,6 @@
 <body>
 
 
-
-  
   <header class="main-header">
     <div class="header-container">
       <div class="logo-area">
@@ -223,31 +221,41 @@
   <script src="scripts/script.js"></script>
 
 
-<footer class="footer">
-  <div class="footer-top">
-    <div class="footer-logo">
-      <img src="assets/imagenes/HardtechLogo/logo-b.png" alt="HardTech Electronics Logo" />
-    </div>
-    <div class="footer-columns">
-      <div class="footer-column">
-        <h4>EMPRESA</h4>
-        <ul>
-          <li><a href="#">Quiénes somos</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Ubicación</a></li>
-        </ul>
+<footer id="footer">
+  <div class="backdrop"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col col-about">
+        <div class="footer-logo">
+          <img src="assets/imagenes/HardtechLogo/logo b.svg" alt="HardTech Electronics Logo" />
+        </div>
+        <p class="text-muted">
+          Somos especialistas en la reparación de equipos electrónicos y en el desarrollo de soluciones a medida para la industria.
+        </p>
+
+
+<p class="icons">
+  <a href="https://github.com/" target="_blank" aria-label="GitHub">
+    <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 0C5.37 0 0 5.373 0 12a12 12 0 008.207 11.387c.6.11.82-.26.82-.577v-2.234c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.755-1.333-1.755-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.237 1.838 1.237 1.07 1.834 2.807 1.304 3.493.997.108-.776.418-1.304.76-1.604-2.665-.305-5.466-1.335-5.466-5.932 0-1.31.468-2.382 1.236-3.222-.124-.303-.536-1.524.117-3.176 0 0 1.008-.323 3.3 1.23A11.52 11.52 0 0112 6.844a11.45 11.45 0 012.997.404c2.29-1.553 3.296-1.23 3.296-1.23.655 1.653.243 2.874.12 3.176.77.84 1.235 1.912 1.235 3.222 0 4.61-2.805 5.625-5.475 5.921.43.372.814 1.103.814 2.222v3.293c0 .319.216.694.825.576A12.005 12.005 0 0024 12c0-6.627-5.373-12-12-12z"/>
+    </svg>
+  </a>
+
+  <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+    <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M20.447 20.452H16.89v-5.568c0-1.327-.026-3.037-1.852-3.037-1.853 0-2.137 1.445-2.137 2.938v5.667H9.342V9h3.41v1.561h.049c.474-.897 1.637-1.847 3.368-1.847 3.598 0 4.26 2.368 4.26 5.448v6.29zM5.337 7.433a1.986 1.986 0 110-3.973 1.986 1.986 0 010 3.973zM6.956 20.452H3.718V9h3.238v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.205 24 24 23.226 24 22.271V1.729C24 .774 23.205 0 22.225 0z"/>
+    </svg>
+  </a>
+</p>
+
+
+
+
+
+
       </div>
 
-      <div class="footer-column">
-        <h4>PRODUCTOS</h4>
-        <ul>
-          <li><a href="#">Arduino PRO</a></li>
-          <li><a href="#">4DSYSTEMS</a></li>
-          <li><a href="#">Power Accesorios</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-column">
+      <div class="col col-links">
         <h4>SOPORTE</h4>
         <ul>
           <li><a href="#">Ayuda técnica</a></li>
@@ -255,19 +263,23 @@
           <li><a href="#">Términos y condiciones</a></li>
         </ul>
       </div>
-    </div>
-  </div>
 
-  <div class="footer-bottom">
-    <div class="footer-socials">
-      <a href="#"><i class="icon-social">🌐</i></a>
-      <a href="#"><i class="icon-social">📸</i></a>
-      <a href="#"><i class="icon-social">💼</i></a>
-      <a href="#"><i class="icon-social">🐱</i></a>
+      <div class="col col-location">
+        <h4>UBICACION</h4>
+        <p>Oficina Principal<br>Uruguay N17-47 y Rio de Janeiro</p>
+        <p class="contact">📞 +593 999907446</p>
+        <p class="contact">✉️ ventas@hardtech.com.ec</p>
+      </div>
     </div>
-    <p class="footer-copy">© 2025 Hard-Tech Electronics. Todos los derechos reservados.</p>
+
+    <div class="row">
+      <div class="col copyright">
+        <p><small>© 2025 Hard-Tech Electronics. Todos los derechos reservados.</small></p>
+      </div>
+    </div>
   </div>
 </footer>
+
 
 
 
