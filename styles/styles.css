@@ -703,7 +703,7 @@ body {
 #footer .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 7rem;
   margin-bottom: 2rem;
 }
 
@@ -771,5 +771,8 @@ body {
   }
 }
 
+#footer .col-about .text-muted {
+  margin-bottom: 4rem; /* Ajusta el valor según lo que necesites */
+}
 
 
